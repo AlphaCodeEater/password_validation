@@ -4,7 +4,7 @@ from random import randrange
 
 
 def run_guess(guess,answer):
-	if 0<guess<11:
+	if 0<guess<12:
 		if guess == answer:
 			print('You are a genius')
 			return True
